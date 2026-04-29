@@ -1393,6 +1393,6 @@ st.download_button("Download cleaned CSV", data=df.to_csv(index=False).encode("u
 st.download_button("Download interpretation summary", data=scan["narrative"].encode("utf-8"), file_name="betterlytics_interpretation.txt", mime="text/plain")
 st.download_button("Download scan data as JSON", data=safe_json(scan).encode("utf-8"), file_name="betterlytics_scan.json", mime="application/json")
 
-add app files
+#add app files
 
 
